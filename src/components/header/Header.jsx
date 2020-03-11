@@ -6,7 +6,7 @@ import {
   ProfilePicture,
   ProfileContent,
   HeaderWrapper
-} from "../helpers/HeaderStyles";
+} from "../styles/HeaderStyles";
 
 const Header = ({ isDarkTheme, toggleTheme }) => {
   return (

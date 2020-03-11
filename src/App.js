@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import Header from "./components/header/Header";
 import Layout from "./components/layout/Layout";
 import { ThemeProvider } from "styled-components";
-import { lightTheme, darkTheme } from "./components/helpers/theme";
-import { GlobalStyles } from "./components/helpers/GlobalStyles";
+import { lightTheme, darkTheme } from "./components/styles/theme";
+import { GlobalStyles } from "./components/styles/GlobalStyles";
 
 function App() {
   const [isDarkTheme, setIsDarkTheme] = useState(
