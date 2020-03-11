@@ -1,11 +1,8 @@
 import PropTypes from "prop-types";
 import React from "react";
-
 import Container from "../container/Container";
-
 import classes from "./layout.module.css";
 import "./normalize.css";
-import "./global.css";
 
 const Layout = ({ children }) => {
   return (

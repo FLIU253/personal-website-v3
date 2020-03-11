@@ -1,29 +1,28 @@
 import React from "react";
-
 import imgSrc from "../../assets/images/picture.png";
 import Socials from "../socials/Socials";
+import {
+  ProfileWrapper,
+  ProfilePicture,
+  ProfileContent,
+  HeaderWrapper
+} from "../helpers/HeaderStyles";
 
-import classes from "./header.module.css";
-
-const Header = () => {
+const Header = ({ isDarkTheme, toggleTheme }) => {
   return (
-    <div className={classes.headerWrapper}>
-      <div className={classes.profileWrapper}>
-        <img
-          className={classes.profilePicture}
-          src={imgSrc}
-          alt="Ryan Fitzgerald"
-        />
-      </div>
-      <div className={classes.profileContent}>
+    <HeaderWrapper>
+      <ProfileWrapper>
+        <ProfilePicture src={imgSrc} alt="Ryan Fitzgerald" />
+      </ProfileWrapper>
+      <ProfileContent>
         <h1>Franklin Liu</h1>
         <h2>
           Software Engineering student based in Toronto, Canada, but currently
           going to school at Western University in London, Canada.
         </h2>
-        <Socials />
-      </div>
-    </div>
+        <Socials isDarkTheme={isDarkTheme} toggleTheme={toggleTheme} />
+      </ProfileContent>
+    </HeaderWrapper>
   );
 };
 
