@@ -5,12 +5,15 @@
 
 .profileWrapper {
   position: relative;
+  /* justify-content: center;
+  align-items: center; */
 }
 
 .profilePicture {
   border-radius: 50%;
   overflow: hidden;
-  width: 150px;
+  /* width: 150px; */
+  height: 150px;
 }
 
 .profileContent {

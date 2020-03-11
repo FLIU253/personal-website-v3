@@ -16,8 +16,11 @@ const Header = () => {
         />
       </div>
       <div className={classes.profileContent}>
-        <h1>Ryan Fitzgerald</h1>
-        <h2>Full-Stack Developer based in Toronto, Canada.</h2>
+        <h1>Franklin Liu</h1>
+        <h2>
+          Software Engineering student based in Toronto, Canada, but currently
+          going to school at Western University in London, Canada.
+        </h2>
         <Socials />
       </div>
     </div>

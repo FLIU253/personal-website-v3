@@ -17,3 +17,9 @@
 .link:hover {
   color: #3997dc;
 }
+
+.themeIcon {
+  height: 24px;
+  width: 24px;
+  min-width: 24px;
+}
