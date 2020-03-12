@@ -31,7 +31,7 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     p {
-    color: #3b3942;
+    color: ${({ theme }) => theme.pTag};
     font-size: 18px;
     line-height: 1.5;
     margin: 0 0 30px;

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Header from "./components/header/Header";
 import Layout from "./components/layout/Layout";
+import Section from "./components/section/Section";
 import { ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme } from "./components/styles/theme";
 import { GlobalStyles } from "./components/styles/GlobalStyles";
@@ -25,6 +26,16 @@ function App() {
       <GlobalStyles />
       <Layout>
         <Header isDarkTheme={isDarkTheme} toggleTheme={toggleTheme} />
+        <Section id="about" title="About Me">
+          <p>
+            I'm an aspiring full-stack engineer who is currently a fourth year
+            software engineering student at Western University
+          </p>
+          <p>
+            I'm passionate about web development and have experience building
+            web applications and services in various tech stacks
+          </p>
+        </Section>
       </Layout>
     </ThemeProvider>
   );
