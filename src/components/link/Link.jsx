@@ -9,7 +9,7 @@ import {
   GitButton
 } from "../styles/LinkStyles";
 
-const Link = ({ desc, link = false, title, project, tasks = [] }) => {
+const Link = ({ desc, link, title, project, tasks = [], github }) => {
   return (
     <Wrapper>
       {link ? (
@@ -31,14 +31,16 @@ const Link = ({ desc, link = false, title, project, tasks = [] }) => {
       </ul>
       {project ? (
         <Icons>
-          <GitButton>
+          <GitButton href={github} target="_blank">
             <i
-              class="fab fa-github-square"
+              className="fab fa-github-square"
               style={{ fontSize: "20px", marginRight: "5px" }}
             ></i>
             Source
           </GitButton>
-          <ViewButton>view</ViewButton>
+          <ViewButton href={link} target="_blank">
+            view
+          </ViewButton>
         </Icons>
       ) : null}
     </Wrapper>

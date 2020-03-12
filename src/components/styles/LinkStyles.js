@@ -35,7 +35,7 @@ export const Icons = styled.div`
   margin-bottom: 30px;
 `;
 
-export const ViewButton = styled.button`
+export const ViewButton = styled.a`
   color: #fff;
   border: 2px solid transparent;
   background: ${({ theme }) => theme.viewButton};
@@ -45,9 +45,10 @@ export const ViewButton = styled.button`
   text-align: center;
   cursor: pointer;
   padding: 3px 18px;
+  text-decoration: none;
 `;
 
-export const GitButton = styled.button`
+export const GitButton = styled.a`
   color: ${({ theme }) => theme.buttonColor};
   border: 2px solid transparent;
   background: ${({ theme }) => theme.buttonBackground};
@@ -58,4 +59,5 @@ export const GitButton = styled.button`
   cursor: pointer;
   padding: 3px 10px;
   margin-right: 15px;
+  text-decoration: none;
 `;

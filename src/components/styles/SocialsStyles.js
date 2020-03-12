@@ -23,3 +23,11 @@ export const ThemeIcon = styled.img`
   cursor: pointer;
   margin-right: 40px;
 `;
+
+export const Link = styled.a`
+  color: #787a82;
+  text-decoration: none;
+  :hover {
+    color: #3997dc;
+  }
+`;

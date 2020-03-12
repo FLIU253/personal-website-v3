@@ -1,5 +1,5 @@
 import React from "react";
-import { List, Item, ThemeIcon } from "../styles/SocialsStyles";
+import { List, Item, ThemeIcon, Link } from "../styles/SocialsStyles";
 
 const Socials = ({ isDarkTheme, toggleTheme }) => {
   return (
@@ -21,16 +21,27 @@ const Socials = ({ isDarkTheme, toggleTheme }) => {
           )}
         </Item>
         <Item>
-          <i className="fab fa-github"></i>
+          <Link href="https://github.com/FLIU253" target="_blank">
+            <i className="fab fa-github"></i>
+          </Link>
         </Item>
         <Item>
-          <i className="fab fa-linkedin-in"></i>
+          <Link
+            href="https://www.linkedin.com/in/franklin-liu-199a00141/"
+            target="_blank"
+          >
+            <i className="fab fa-linkedin-in"></i>
+          </Link>
         </Item>
         <Item>
-          <i className="fab fa-facebook"></i>
+          <Link href="https://www.facebook.com/franklin.liu3" target="_blank">
+            <i className="fab fa-facebook"></i>
+          </Link>
         </Item>
         <Item>
-          <i className="fab fa-instagram"></i>
+          <Link href="https://www.instagram.com/franklin_liu3/" target="_blank">
+            <i className="fab fa-instagram"></i>
+          </Link>
         </Item>
       </List>
     </div>
