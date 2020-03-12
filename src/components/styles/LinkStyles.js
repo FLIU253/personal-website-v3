@@ -18,7 +18,7 @@ export const LinkTitle = styled.a`
 `;
 
 export const Title = styled.span`
-  color: #32404b;
+  color: ${({ theme }) => theme.link};
   display: inline-block;
   font-size: 20px;
   font-weight: 700;
@@ -27,4 +27,11 @@ export const Title = styled.span`
 
 export const Description = styled.p`
   font-size: 16px;
+  margin-bottom: 0px;
+`;
+
+export const Icon = styled.div`
+  margin-top: 10px;
+  font-size: 30px;
+  margin-bottom: 30px;
 `;

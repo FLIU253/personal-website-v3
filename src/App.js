@@ -50,6 +50,37 @@ function App() {
             desc="lorem ipsum"
           />
         </Section>
+
+        <Section id="projects" title="Projects">
+          <Link
+            title="Pivalink"
+            desc="Tool to create microlanding pages that can be easily updated and customized to fit any brand"
+            link="https://google.com"
+            project={true}
+          />
+          <Link
+            title="Coursefacts"
+            desc="A platform where students can read and write university / college course reviews anonymously"
+            project={true}
+          />
+          <Link
+            title="Dev Blog"
+            desc="A open source and minimal personal blog template for developers built with Gatsby and React"
+            project={true}
+          />
+        </Section>
+
+        <Section id="skills" title="Skills">
+          <Link
+            title="Languages & Frameworks"
+            desc="JavaScript (ES6+), Python, React, Node.js, Express.js, Ruby on Rails, PHP"
+          />
+          <Link title="Databases" desc="MongoDB, PostreSQL, MySQL" />
+          <Link
+            title="Other"
+            desc="Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum"
+          />
+        </Section>
       </Layout>
     </ThemeProvider>
   );
