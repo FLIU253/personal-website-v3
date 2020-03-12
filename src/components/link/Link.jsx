@@ -9,7 +9,7 @@ import {
   GitButton
 } from "../styles/LinkStyles";
 
-const Link = ({ desc, link = false, title, project }) => {
+const Link = ({ desc, link = false, title, project, tasks = [] }) => {
   return (
     <Wrapper>
       {link ? (
@@ -21,6 +21,14 @@ const Link = ({ desc, link = false, title, project }) => {
       )}
 
       <Description>{desc}</Description>
+      <ul>
+        {tasks &&
+          tasks.map((task, i) => (
+            <li key={i}>
+              <Description>{task}</Description>
+            </li>
+          ))}
+      </ul>
       {project ? (
         <Icons>
           <GitButton>

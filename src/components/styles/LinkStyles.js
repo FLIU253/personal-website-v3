@@ -38,7 +38,7 @@ export const Icons = styled.div`
 export const ViewButton = styled.button`
   color: #fff;
   border: 2px solid transparent;
-  background: #0938a4 !important;
+  background: ${({ theme }) => theme.viewButton};
   font-size: 18px;
   border-radius: 4px;
   vertical-align: middle;
