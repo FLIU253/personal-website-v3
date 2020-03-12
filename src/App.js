@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Header from "./components/header/Header";
 import Layout from "./components/layout/Layout";
 import Section from "./components/section/Section";
+import Link from "./components/link/Link";
 import { ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme } from "./components/styles/theme";
 import { GlobalStyles } from "./components/styles/GlobalStyles";
@@ -35,6 +36,19 @@ function App() {
             I'm passionate about web development and have experience building
             web applications and services in various tech stacks
           </p>
+        </Section>
+
+        <Section id="experience" title="Experience">
+          <Link
+            title="Autodata Solutions"
+            link="https://google.com"
+            desc="lorem ispum"
+          />
+          <Link
+            title="Western University"
+            link="https://google.com"
+            desc="lorem ipsum"
+          />
         </Section>
       </Layout>
     </ThemeProvider>

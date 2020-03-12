@@ -21,16 +21,16 @@ const Socials = ({ isDarkTheme, toggleTheme }) => {
           )}
         </Item>
         <Item>
-          <i class="fab fa-github"></i>
+          <i className="fab fa-github"></i>
         </Item>
         <Item>
-          <i class="fab fa-linkedin-in"></i>
+          <i className="fab fa-linkedin-in"></i>
         </Item>
         <Item>
-          <i class="fab fa-facebook"></i>
+          <i className="fab fa-facebook"></i>
         </Item>
         <Item>
-          <i class="fab fa-instagram"></i>
+          <i className="fab fa-instagram"></i>
         </Item>
       </List>
     </div>
