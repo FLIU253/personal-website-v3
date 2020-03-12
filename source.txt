@@ -4,4 +4,5 @@ references:
 * https://html5up.net/paradigm-shift
 * https://html5up.net/fractal 
 * https://ryanfitzgerald.ca/
-* https://www.taniarascia.com/ 
+* https://www.taniarascia.com/
+* http://www.garysheng.com/ 

@@ -19,7 +19,8 @@ export const ProfileWrapper = styled.div`
 export const ProfilePicture = styled.img`
   border-radius: 50%;
   overflow: hidden;
-  height: 150px;
+  width: 150px;
+  min-width: 150px;
 `;
 
 export const ProfileContent = styled.div`

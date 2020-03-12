@@ -1,5 +1,5 @@
 import React from "react";
-import imgSrc from "../../assets/images/picture.png";
+import imgSrc from "../../assets/images/picture.jpg";
 import Socials from "../socials/Socials";
 import {
   ProfileWrapper,
