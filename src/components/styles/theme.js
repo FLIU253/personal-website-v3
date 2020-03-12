@@ -5,7 +5,9 @@ export const lightTheme = {
   h1: "#1f2933",
   pTag: "#3b3942",
   h3: "#787a82",
-  link: "#32404b"
+  link: "#32404b",
+  buttonColor: "#eff3f6",
+  buttonBackground: "#24292e"
 };
 
 export const darkTheme = {
@@ -14,5 +16,7 @@ export const darkTheme = {
   h1: "#ffffff",
   pTag: "#9FA3A9",
   h3: "#b3b9c5",
-  link: "#81a5f8"
+  link: "#81a5f8",
+  buttonColor: "#24292e",
+  buttonBackground: "#eff3f6"
 };

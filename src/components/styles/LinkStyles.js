@@ -30,8 +30,32 @@ export const Description = styled.p`
   margin-bottom: 0px;
 `;
 
-export const Icon = styled.div`
+export const Icons = styled.div`
   margin-top: 10px;
-  font-size: 30px;
   margin-bottom: 30px;
+`;
+
+export const ViewButton = styled.button`
+  color: #fff;
+  border: 2px solid transparent;
+  background: #0938a4 !important;
+  font-size: 18px;
+  border-radius: 4px;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  padding: 3px 18px;
+`;
+
+export const GitButton = styled.button`
+  color: ${({ theme }) => theme.buttonColor};
+  border: 2px solid transparent;
+  background: ${({ theme }) => theme.buttonBackground};
+  font-size: 18px;
+  border-radius: 4px;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  padding: 3px 10px;
+  margin-right: 15px;
 `;

@@ -4,7 +4,9 @@ import {
   Title,
   LinkTitle,
   Description,
-  Icon
+  Icons,
+  ViewButton,
+  GitButton
 } from "../styles/LinkStyles";
 
 const Link = ({ desc, link = false, title, project }) => {
@@ -20,10 +22,16 @@ const Link = ({ desc, link = false, title, project }) => {
 
       <Description>{desc}</Description>
       {project ? (
-        <Icon>
-          <i class="fab fa-github-square" style={{ marginRight: "15px" }}></i>
-          <i class="fas fa-globe-americas"></i>
-        </Icon>
+        <Icons>
+          <GitButton>
+            <i
+              class="fab fa-github-square"
+              style={{ fontSize: "20px", marginRight: "5px" }}
+            ></i>
+            Source
+          </GitButton>
+          <ViewButton>view</ViewButton>
+        </Icons>
       ) : null}
     </Wrapper>
   );

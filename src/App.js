@@ -53,19 +53,19 @@ function App() {
 
         <Section id="projects" title="Projects">
           <Link
-            title="Pivalink"
-            desc="Tool to create microlanding pages that can be easily updated and customized to fit any brand"
+            title="Lorem Ipsum"
+            desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
             link="https://google.com"
             project={true}
           />
           <Link
-            title="Coursefacts"
-            desc="A platform where students can read and write university / college course reviews anonymously"
+            title="Lorem Ipsum"
+            desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
             project={true}
           />
           <Link
-            title="Dev Blog"
-            desc="A open source and minimal personal blog template for developers built with Gatsby and React"
+            title="Lorem Ipsum"
+            desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
             project={true}
           />
         </Section>
@@ -73,13 +73,10 @@ function App() {
         <Section id="skills" title="Skills">
           <Link
             title="Languages & Frameworks"
-            desc="JavaScript (ES6+), Python, React, Node.js, Express.js, Ruby on Rails, PHP"
+            desc="JavaScript (ES6+), Python, React, Node.js, Express.js, Vue, Angular, Java, Cucumber, SerenityBDD,C++"
           />
           <Link title="Databases" desc="MongoDB, PostreSQL, MySQL" />
-          <Link
-            title="Other"
-            desc="Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum"
-          />
+          <Link title="Others" desc="BDD testing, API design, Agile / Scrum" />
         </Section>
       </Layout>
     </ThemeProvider>
